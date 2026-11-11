@@ -1,4 +1,3 @@
-
 /* =========================================
    IDENTIDADE VISUAL — VANIELLE FERNANDES
 ========================================= */
@@ -840,6 +839,30 @@ p {
     color: var(--dourado);
     font-size: 11px;
     font-weight: 700;
+}
+
+.whatsapp-contato a,
+.whatsapp-contato a:visited,
+.whatsapp-contato small {
+    color: var(--dourado);
+}
+
+.whatsapp-contato a {
+    text-decoration: none;
+}
+
+.whatsapp-contato a:hover {
+    text-decoration: underline;
+}
+
+.whatsapp-contato a:focus-visible {
+    outline: 2px solid var(--dourado);
+    outline-offset: 3px;
+}
+
+.whatsapp-contato small {
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .foto-contato {
