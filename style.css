@@ -841,10 +841,13 @@ p {
     font-weight: 700;
 }
 
-.whatsapp-contato a,
-.whatsapp-contato a:visited,
+.dados-contato .whatsapp-contato a,
+.dados-contato .whatsapp-contato a:link,
+.dados-contato .whatsapp-contato a:visited,
+.dados-contato .whatsapp-contato a:hover,
+.dados-contato .whatsapp-contato a:active,
 .whatsapp-contato small {
-    color: var(--dourado);
+    color: inherit;
 }
 
 .whatsapp-contato a {
